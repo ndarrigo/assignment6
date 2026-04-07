@@ -8,7 +8,7 @@ from supabase import create_client, Client
 # In production, use environment variables!
 URL = "https://bdrwzxqucaefpwxyjqvv.supabase.co"
 KEY = "sb_publishable_rpTK6BCBOdUZC8O5TKIbcw_gAtloIGs"
-SECRET_BEARER_TOKEN = "passwordassignment6"
+
 
 supabase: Client = create_client(URL, KEY)
 app = FastAPI(title="Bookstore API", description="Relational Database CRUD with Supabase")
