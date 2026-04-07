@@ -8,6 +8,7 @@ from supabase import create_client, Client
 # In production, use environment variables!
 URL = "https://bdrwzxqucaefpwxyjqvv.supabase.co"
 KEY = "sb_publishable_rpTK6BCBOdUZC8O5TKIbcw_gAtloIGs"
+SECRET_BEARER_TOKEN = "password"
 
 
 supabase: Client = create_client(URL, KEY)
